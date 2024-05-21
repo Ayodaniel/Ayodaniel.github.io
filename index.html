@@ -3,36 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Daniel</title>
     <link rel="stylesheet" href="styles.css">
-
 </head>
 <body>
-    <div id="calculator">
-        <input id="display" readonly>
-        <div id="keys">
-             <button onclick="appendToDisplay('+')" class="operator-btn">+</button>
-             <button onclick="appendToDisplay('7')">7</button> 
-             <button onclick="appendToDisplay('8')">8</button> 
-             <button onclick="appendToDisplay('9')">9</button> 
-             <button onclick="appendToDisplay('-')" class="operator-btn">-</button>    
-             <button onclick="appendToDisplay('4')">4</button> 
-             <button onclick="appendToDisplay('5')">5</button> 
-             <button onclick="appendToDisplay('6')">6</button> 
-             <button onclick="appendToDisplay('*')" class="operator-btn">*</button> 
-             <button onclick="appendToDisplay('1')">1</button> 
-             <button onclick="appendToDisplay('2')">2</button> 
-             <button onclick="appendToDisplay('3')">3</button> 
-             <button onclick="appendToDisplay('/')" class="operator-btn">/</button> 
-             <button onclick="appendToDisplay('0')">0</button> 
-             <button onclick="appendToDisplay('.')">.</button> 
-             <button onclick="calculate()">=</button>
-             <button onclick="clearDisplay()" class="operator-btn">C</button>
+    <header>
+        <div class="container">
+            <h1>Welcome to My Bio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#posts">Posts</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
-
-
-
-    <script src="app.js"></script>
+    </header>
+    <main>
+        <section id="about" class="container">
+                       <img src="profile.jpg" alt="My Profile Picture" class="profile-img">
+            <p>Hello! I'm Daniel, and this is my personal blog where I share my thoughts, experiences, and more.</p>
+        </section>
+        <section id="posts" class="container"> <br>
+            <article>
+             <h3>Brief Info about myself</h3>
+                <p>Daniel is a highly skilled Deep Learning Specialist with a strong background in artificial intelligence
+                    and machine learning. <br> With a passion for harnessing the power of neural networks to solve complex problems, Daniel has developed expertise in a variety of deep learning techniques and frameworks.
+                <br> Holding a degree in Mathematics, Daniel has contributed to numerous projects involving image recognition,
+                <br> natural language processing, and predictive analytics.
+                <br> Daniel is proficient in popular deep learning libraries such as TensorFlow, PyTorch, and Keras, and has a proven track record of deploying scalable AI solutions in both research and industry settings.
+                </p>
+            </article>
+         </section>
+        
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Personal Blog. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
