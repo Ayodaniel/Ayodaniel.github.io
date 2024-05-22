@@ -14,6 +14,7 @@
                 <ul>
                     <li><a href="#about">About</a></li>
                     <li><a href="#posts">Posts</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -21,21 +22,58 @@
     </header>
     <main>
         <section id="about" class="container">
-                       <img src="profile.jpg" alt="My Profile Picture" class="profile-img">
+            <img src="profile.jpg" alt="My Profile Picture" class="profile-img">
             <p>Hello! I'm Daniel, and this is my personal blog where I share my thoughts, experiences, and more.</p>
         </section>
-        <section id="posts" class="container"> <br>
+        <section id="posts" class="container">
             <article>
-             <h3>Brief Info about myself</h3>
-                <p>Daniel is a highly skilled Deep Learning Specialist with a strong background in artificial intelligence
-                    and machine learning. <br> With a passion for harnessing the power of neural networks to solve complex problems, Daniel has developed expertise in a variety of deep learning techniques and frameworks.
-                <br> Holding a degree in Mathematics, Daniel has contributed to numerous projects involving image recognition,
-                <br> natural language processing, and predictive analytics.
-                <br> Daniel is proficient in popular deep learning libraries such as TensorFlow, PyTorch, and Keras, and has a proven track record of deploying scalable AI solutions in both research and industry settings.
+                <h3>Brief Info about myself</h3>
+                <p>
+                    Daniel is a highly skilled Deep Learning Specialist with a strong background in artificial intelligence and machine learning. With a passion for harnessing the power of neural networks to solve complex problems, Daniel has developed expertise in a variety of deep learning techniques and frameworks.
+                    Holding a degree in Mathematics, Daniel has contributed to numerous projects involving image recognition, natural language processing, and predictive analytics.
+                    Daniel is proficient in popular deep learning libraries such as TensorFlow, PyTorch, and Keras, and has a proven track record of deploying scalable AI solutions in both research and industry settings.
                 </p>
             </article>
-         </section>
-        
+        </section>
+        <section id="gallery" class="container">
+            <h2>Understanding Generative AI: Unleashing Creativity through Machine Intelligence</h2>
+            <p>In the rapidly evolving landscape of artificial intelligence (AI),
+                 one of the most captivating and transformative advancements is Generative AI.
+                  This technology stands at the forefront of creativity,
+                   enabling machines not just to learn from data but also to generate new content—art, 
+                   music, text, and even realistic images—often indistinguishable from human-created ones.
+                    Let's delve into what Generative AI is, its applications, and the implications it holds 
+                    for the future.</p>
+            <div class="gallery">
+                <figure>
+                    <img src="image1.jpg" alt="Description of image 1">
+                    <figcaption>Image source: Deepmind</figcaption>
+                </figure>
+                <figure>
+                    <img src="image2.jpg" alt="Description of image 2">
+                    <figcaption>Image source: Deepmind</figcaption>
+                </figure>
+                <figure>
+                    <img src="image3.jpg" alt="Description of image 3">
+                    <figcaption>Image source: Deepmind</figcaption>
+                </figure>
+            </div>
+        </section>
+        <section id="contact" class="container">
+            <h2>Contact</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="container">
