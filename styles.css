@@ -89,6 +89,8 @@ nav ul li a {
     width: 80%;
     margin: 0 auto;
     padding: 20px 0;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -101,10 +103,10 @@ section {
 }
 
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    float: left;
+    float: none;
     margin-right: 20px;
 }
 
