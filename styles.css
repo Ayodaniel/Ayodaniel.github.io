@@ -175,13 +175,15 @@ footer .container {
 
 @media (max-width: 768px) {
     header .container {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
 
     .nav-toggle {
         display: flex;
+        top: 500px;
+        margin-left: auto;
     }
 
     .nav-list {
@@ -190,10 +192,12 @@ footer .container {
         flex-direction: column;
         text-align: center;
         position: absolute;
-        top: 120px;
+        top: 150px;
         left: 0;
-        background-color: hsl(249, 82%, 70%);
-        padding: 2em 0;
+        background-color: hsl(140, 4%, 71%);
+        padding: 3em 0;
+        color: #333;
+        
     }
 
     .nav-list.active {
